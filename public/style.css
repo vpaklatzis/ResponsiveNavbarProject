@@ -14,21 +14,6 @@
     --blue5: #171721;
 }
 
-@media (prefers-color-scheme: dark) {
-    :root {
-        --text: #ececec;
-        --bggradient: linear-gradient(to right, var(--blue1), var(--blue3));
-        --bg: #141418;
-    }
-}
-
-@media (prefers-color-scheme: light) {
-    :root {
-        --bg: white;
-        --text: black; 
-    }
-}
-
 body {
     color: var(--text);
     background: var(--bg);
